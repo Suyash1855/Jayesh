@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: rgb(60, 64, 67);
+}
+
+h1{
+    color: antiquewhite;
+    font-size: 50px;
+    font-family: 'Nunito';
+    text-align:center;
+}
+
+#join-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 8em;
+    /* background-color: aqua; */
+        
+}
+#ip{
+    background-color: rgba(112, 103, 102, 0.674);
+    padding: 70px;
+    border-radius: 1em;
+}
+.submit-btn{
+    border-radius: 1em;
+    background-color: rgba(112, 103, 102, 0.674);
+    color: whitesmoke;
+    padding: 5px;
+    border-color: aliceblue;
+}
+
+h3{
+    color: whitesmoke;
+    font-family: Poppins;
+    font-weight: lighter;
+    font-size: 35px;
+
+}

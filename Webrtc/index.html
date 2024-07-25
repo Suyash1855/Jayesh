@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebRTC</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>मेड इन इण्डिया Google Meet</h1>
+        <div id="videos">
+            <video class="video-player" id="user1" autoplay playsinline></video>
+            <video class="video-player" id="user2" autoplay playsinline></video>
+        </div>
+
+        <div id="control">
+            <div class="control-container" id="camera-btn">
+                <img src="/icons/camera.png" alt="">
+            </div>
+
+            <div class="control-container" id="mic-btn">
+                <img src="/icons/mic.png" id='img-mic' alt="">
+            </div>
+            <a href="lobby.html">
+                <div class="control-container" id="leave-btn">
+                    <img src="/icons/phone.png" alt="">
+                </div>
+            </a>
+        </div>
+    </body>
+<script src="agora-rtm-sdk-1.5.1.js"></script>
+<script src="index.js"></script>
+</html>

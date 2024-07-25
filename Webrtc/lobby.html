@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lobby.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lobby</h1>
+    <form action="" id="join-form">
+        <div id="ip"> 
+            <h3>Enter Room ID</h3>
+            <input type="text"  class='search-bar' name="invitelink" required/>
+            <input type="submit" class='submit-btn' value="Join Room"/>
+        </div>
+        
+        </form>
+</body>
+<script>
+    let form =document.getElementById('join-form')
+    form.addEventListener('submit',(e)=>{
+        e.preventDefault();
+        let inviteCode=e.target.invitelink.value;
+        window.location= `index.html?room=${inviteCode}`;
+    })
+</script>
+</html>
